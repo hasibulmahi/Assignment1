@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global style start */
+    .button_style {
+      font-size: 18px;
+      font-weight: 700;
+      background-color: #fdb467;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #000000;
+      border: none; 
+      padding: 13px 35px;
+      margin-top: 40px;
+
+    }
+/* global style end */
+
+/* header style start */
+.header_section {
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/Image_1.png");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.header_section_content{
+    padding: 180px 120px;
+}
+.header_section_content h1 {
+    font-size: 35px;
+}
+.header_section_content p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 20px;
+}
+/* header style end */
+
+/* about style start */
+.about_section {
+    padding: 0;
+    color: #fff;
+}
+.about_section .left {
+    float: left;
+    width: 50%;
+    background-color: #272624;
+}
+.about_section .left_box{
+    width: auto;
+    height: 500px;
+    padding: 180px 120px; 
+}
+.about_section .left_box h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.about_section .left_box p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about_section .right {
+    float: right;
+    width: 50%;
+}
+.about_section .right_box{
+    background-color: #1E1D1B;
+    width: auto;
+    height: 500px;
+    padding: 180px 120px;
+    text-align: center;
+}
+.about_section .right_box h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.about_section .right_box p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* about style end */
+
+/* work style start */
+.work_section {
+    padding: 0;
+    /*color: #fff; */ 
+}
+.work_section .left {
+    float: left;
+    width: 30%;
+    background-color: #EEE9E5; 
+}
+.work_section .left_box {
+    width: auto;
+    height: 500px;
+    padding: 120px 80px;
+} 
+.work_section .left_box h1 {
+    font-size: 30px;
+    text-align: left;
+}
+.work_section .left_box p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 20px; 
+}
+.work_section_picture {
+    float: right;
+    width: 70%;
+}
+.work_section_picture img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    object-fit: cover;
+}
+/* work style end */
+
+/* studio style start */
+.studio_section_picture {
+    float: left;
+    width: 70%;
+    position: relative;
+}
+.studio_section_picture img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    object-fit: cover;
+}
+.studio_section {
+    padding: 0px 0px;
+    color: #fff;
+}
+.studio_section .right {
+    float: right;
+    width: 30%;
+    background-color: #272624; 
+}
+.studio_section .right_box {
+    width: auto;
+    height: 500px;
+    padding: 120px 80px;
+} 
+.studio_section .right .right_box h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.studio_section .right .right_box p {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: left;
+     
+}
+
+/* studio style end */
+
+/* review style start */
+.review_section {
+    height: 600px;
+    padding: 80px 120px;
+    background: url('./images/Image_4.png');
+    background-size: cover;
+    position: relative;
+}
+.card_container {
+    float: left;
+    width: 30%;
+}
+.review_card {
+    width: 488px;
+    background-color: #EEE9E5;
+    padding: 100px 50px 100px 50px;
+    margin: 50px 0 0 50px;
+    text-align: left;
+    position: absolute;
+    bottom: -55px;
+}
+.review_card h2 {
+    font-size: 30px;
+}
+.review_card p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.review_card h3 {
+    font-size: 20px;
+}
+.review_section_picture img {
+    width: 100%;
+    height: 500px;
+}
+/* review style end */
+
+/* footer style start */
+.footer_section {
+    background-color: #1E1D1B;
+    color: #fff;
+}
+.footer_section form input {
+    padding: 15px 20px;
+    width: 350px;
+    background-color: #393836;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+.footer_top {
+    padding-top: 54px;
+    border-bottom: 1px solid #393836;
+}
+.footer_bottom {
+    padding: 120px;
+    text-align: center;
+}
+.footer_section .title p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    text-align: center;
+
+}
+/* footer style end */
+
+
+/* last checking start */
+.position-relative{
+    position: relative;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+/* last checking end /*
+
+
